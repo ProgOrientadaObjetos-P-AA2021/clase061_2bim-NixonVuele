@@ -56,24 +56,7 @@ public class ArriendoLocalComida extends Arriendo {
         return iva;
     }
     
-    @Override
-    public String toString(){
-        String cadena = String.format("Ariendo de Local Comida\n"
-                + "Nombre Arrendatario: %s\n"
-                + "Cuota base: %.2f\n"
-                + "Valor luz: %.2f\n"
-                + "Valor agua: %.2f\n"
-                + "Porcentaje iva: %.2f\n"
-                + "Arriendo Total: %.2f\n", 
-                obtenerNombreArrendatario(),
-                obtenerCuotaBase(),
-                obtenerValorLuz(),
-                obtenerValorAgua(),
-                obtenerIva(),
-                obtenerArriendoMensual());
-        
-        return cadena;
-    }
+
     
         
 }
